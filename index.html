@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SKY Signature | تشطيبات وتصميم داخلي — مدينة السادات</title>
+<meta name="description" content="SKY Signature — شركة تصميم داخلي وتشطيبات ومقاولات في مدينة السادات. معاينة مجانية، إشراف هندسي، باقات Gold وPlatinum وDiamond وSignature. بيتك بصمتك.">
+<meta name="theme-color" content="#1A1310">
+<meta property="og:title" content="SKY Signature | Interior Design | Fit-out | Contracting">
+<meta property="og:description" content="تشطيبات وتصميم داخلي في مدينة السادات — بيتك بصمتك. معاينة مجانية داخل السادات.">
+<meta property="og:image" content="https://ahmedmohamedmahmoudfadl-sudo.github.io/sky-signature/assets/sky-lockup.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ahmedmohamedmahmoudfadl-sudo.github.io/sky-signature/">
+<link rel="canonical" href="https://ahmedmohamedmahmoudfadl-sudo.github.io/sky-signature/">
+<meta property="og:locale" content="ar_EG">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=El+Messiri:wght@500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --espresso:#1A1310; --espresso-2:#2A1F18; --espresso-3:#34261C;
+  --gold:#D4AF7A; --gold-hi:#E8CC96; --bronze:#B08D57; --bronze-dk:#8A6A3E;
+  --beige:#EFE7D8; --beige-2:#F7F2E9; --ink:#2A1F18; --muted:#6E5D4E;
+  --line:rgba(212,175,122,.28);
+  --serif-ar:'El Messiri',serif; --sans-ar:'Tajawal',system-ui,sans-serif; --latin:'Cormorant Garamond',serif;
+  --wrap:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--sans-ar);color:var(--ink);background:var(--beige-2);line-height:1.8;font-size:17px;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.latin{font-family:var(--latin);letter-spacing:.06em;direction:ltr;unicode-bidi:isolate}
+.gold-text{background:linear-gradient(180deg,var(--gold-hi),var(--bronze));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* ---------- header ---------- */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s}
+.hdr.solid{background:rgba(26,19,16,.94);backdrop-filter:blur(8px);box-shadow:0 1px 0 var(--line)}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .ic{height:50px;width:auto}
+.brand .wm{height:22px;width:auto}
+.brand small{display:block;font-family:var(--latin);color:var(--bronze);font-size:11px;letter-spacing:.08em;direction:ltr;margin-top:2px}
+.nav{display:flex;gap:26px;align-items:center}
+.nav a{color:var(--beige);font-size:15px;opacity:.85;transition:opacity .2s,color .2s}
+.nav a:hover{opacity:1;color:var(--gold-hi)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:2px;font-weight:700;font-size:15px;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;border:0}
+.btn-gold{background:linear-gradient(135deg,var(--gold-hi),var(--bronze));color:var(--espresso)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(176,141,87,.35)}
+.btn-ghost{border:1px solid var(--gold);color:var(--gold-hi)}
+.btn-ghost:hover{background:rgba(212,175,122,.1)}
+.burger{display:none;background:none;border:0;color:var(--gold-hi);font-size:26px;cursor:pointer}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;color:var(--beige);
+  background:radial-gradient(ellipse at 50% 35%,#3a2a1e 0%,var(--espresso-2) 45%,var(--espresso) 100%);overflow:hidden;padding:120px 0 80px}
+.hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");pointer-events:none}
+.hero .wrap{position:relative;text-align:center;display:flex;flex-direction:column;align-items:center}
+.hero-logo{width:min(260px,52vw);filter:drop-shadow(0 0 40px rgba(212,175,122,.25));animation:rise 1.4s cubic-bezier(.2,.8,.2,1) both}
+.hero-wm{width:min(230px,46vw);margin-top:6px;animation:fade 1s .6s both}
+.slogan{font-family:var(--latin);font-size:clamp(15px,2vw,20px);letter-spacing:.14em;color:var(--gold);margin-top:18px;direction:ltr;animation:fade 1s .9s both}
+.divider{display:flex;align-items:center;gap:12px;margin:22px auto;width:min(360px,80%);animation:fade 1s 1.1s both}
+.divider::before,.divider::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.divider i{width:9px;height:9px;transform:rotate(45deg);background:var(--gold)}
+.hero h1{font-family:var(--serif-ar);font-size:clamp(34px,5.4vw,60px);font-weight:700;line-height:1.35;animation:fade 1s 1.2s both}
+.hero h1 .latin{display:block;font-size:.42em;color:var(--bronze);margin-top:4px;font-weight:600}
+.hero p.lead{max-width:640px;margin:18px auto 0;font-size:clamp(16px,1.8vw,19px);color:rgba(239,231,216,.82);animation:fade 1s 1.35s both}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:34px;animation:fade 1s 1.5s both}
+.scroll-hint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);color:var(--bronze);font-size:13px;letter-spacing:.2em;animation:bob 2.4s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(40px);filter:blur(8px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
+
+/* ---------- offer strip ---------- */
+.offer{background:linear-gradient(90deg,var(--bronze-dk),var(--bronze),var(--gold),var(--bronze),var(--bronze-dk));color:var(--espresso)}
+.offer .wrap{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;padding:18px 20px;text-align:center}
+.offer strong{font-family:var(--serif-ar);font-size:22px}
+.offer span{font-size:15px;font-weight:500}
+.offer a{background:var(--espresso);color:var(--gold-hi);padding:8px 18px;font-weight:700;font-size:14px}
+
+/* ---------- sections ---------- */
+section{padding:100px 0}
+.sec-head{text-align:center;max-width:720px;margin:0 auto 56px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--latin);color:var(--bronze);letter-spacing:.2em;font-size:14px;font-weight:700;direction:ltr}
+.eyebrow b{font-size:20px;color:var(--gold)}
+.sec-head h2{font-family:var(--serif-ar);font-size:clamp(30px,4vw,44px);line-height:1.3;margin-top:10px}
+.sec-head p{color:var(--muted);margin-top:12px}
+.dark{background:var(--espresso-2);color:var(--beige)}
+.dark .sec-head p{color:rgba(239,231,216,.7)}
+.paper{background:var(--beige)}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.about-grid h3{font-family:var(--serif-ar);font-size:26px;margin-bottom:10px}
+.about-grid p{color:var(--muted);margin-bottom:16px}
+.vm{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+.vm div{border:1px solid var(--line);background:#fff;padding:22px}
+.vm h4{font-family:var(--serif-ar);color:var(--bronze-dk);font-size:20px;margin-bottom:6px}
+.vm p{margin:0;font-size:15px}
+.about-art{position:relative;aspect-ratio:4/5;background:var(--espresso);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.about-art img{width:58%;filter:drop-shadow(0 0 30px rgba(212,175,122,.25))}
+.about-art::after{content:"";position:absolute;inset:16px;border:1px solid var(--line)}
+.about-art .tag{position:absolute;bottom:34px;left:0;right:0;text-align:center;font-family:var(--latin);letter-spacing:.14em;color:var(--gold);font-size:18px;direction:ltr}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.svc{background:var(--espresso-2);padding:28px 22px;transition:background .25s}
+.svc:hover{background:var(--espresso-3)}
+.svc .n{font-family:var(--latin);color:var(--bronze);font-size:15px;font-weight:700}
+.svc h3{font-family:var(--serif-ar);font-size:21px;color:var(--gold-hi);margin:6px 0 4px}
+.svc p{font-size:14.5px;color:rgba(239,231,216,.72);line-height:1.7}
+
+/* systems */
+.sys-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.sys{background:#fff;border:1px solid var(--line);padding:34px 28px;position:relative}
+.sys .k{position:absolute;top:-1px;right:28px;background:var(--espresso);color:var(--gold);font-family:var(--latin);font-weight:700;padding:4px 12px;font-size:14px}
+.sys h3{font-family:var(--serif-ar);font-size:24px;margin:14px 0 8px}
+.sys p{color:var(--muted);font-size:15.5px}
+.pkgs{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pkg{font-family:var(--latin);font-weight:700;letter-spacing:.1em;font-size:14px;padding:6px 14px;border:1px solid;direction:ltr}
+.pkg.gold{border-color:#c9a25f;color:#9a7638;background:#fbf4e6}
+.pkg.plat{border-color:#9aa1a8;color:#5d656d;background:#f2f4f5}
+.pkg.dia{border-color:#7fa7c2;color:#3d6884;background:#eef5fa}
+.pkg.sig{border-color:var(--espresso);color:var(--gold-hi);background:var(--espresso)}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:s;position:relative}
+.steps::before{content:"";position:absolute;top:30px;right:10%;left:10%;height:1px;background:var(--line)}
+.step{text-align:center;padding:0 12px;position:relative}
+.step .dot{width:60px;height:60px;margin:0 auto 16px;border:1px solid var(--gold);background:var(--espresso-2);color:var(--gold);display:flex;align-items:center;justify-content:center;font-family:var(--latin);font-size:22px;font-weight:700;transform:rotate(45deg)}
+.step .dot span{transform:rotate(-45deg)}
+.step h3{font-family:var(--serif-ar);font-size:20px;color:var(--gold-hi)}
+.step p{font-size:14.5px;color:rgba(239,231,216,.72)}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.why-col h3{font-family:var(--serif-ar);font-size:26px;margin-bottom:18px;display:flex;align-items:center;gap:12px}
+.why-col h3::before{content:"";width:10px;height:10px;transform:rotate(45deg);background:var(--bronze)}
+.li{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.li .num{font-family:var(--latin);font-size:26px;color:var(--bronze);font-weight:700;min-width:34px;line-height:1.2}
+.li h4{font-size:17px;font-weight:700}
+.li p{color:var(--muted);font-size:15px}
+
+/* projects */
+.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.proj{background:var(--espresso-2);color:var(--beige);overflow:hidden;border:1px solid var(--line)}
+.proj .ph{aspect-ratio:4/3;position:relative;background:radial-gradient(circle at 50% 45%,#3a2a1e,var(--espresso));display:flex;align-items:center;justify-content:center}
+.proj .ph img.wm{width:34%;opacity:.18}
+.proj .ph .soon{position:absolute;bottom:12px;left:0;right:0;text-align:center;font-size:12.5px;color:rgba(239,231,216,.5)}
+.badge{position:absolute;top:14px;right:14px;font-family:var(--latin);font-weight:700;letter-spacing:.12em;font-size:13px;padding:5px 12px;direction:ltr}
+.badge.plat{background:#e9ecee;color:#3f474e}
+.badge.gold{background:linear-gradient(135deg,var(--gold-hi),var(--bronze));color:var(--espresso)}
+.badge.del{background:var(--espresso);color:var(--gold-hi);border:1px solid var(--gold)}
+.proj .body{padding:22px}
+.proj h3{font-family:var(--serif-ar);font-size:21px;color:var(--gold-hi)}
+.proj p{font-size:14.5px;color:rgba(239,231,216,.72)}
+
+/* uses */
+.uses-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.use{background:#fff;border:1px solid var(--line);padding:22px 20px;transition:transform .25s,box-shadow .25s}
+.use:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(42,31,24,.08)}
+.use .n{font-family:var(--latin);color:var(--bronze);font-weight:700}
+.use h3{font-family:var(--serif-ar);font-size:20px;margin:2px 0 4px}
+.use p{font-size:14px;color:var(--muted);line-height:1.7}
+.uses-note{text-align:center;margin-top:30px;font-family:var(--serif-ar);font-size:22px;color:var(--bronze-dk)}
+
+/* tips */
+.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.tip{border:1px solid var(--line);padding:26px;position:relative;background:linear-gradient(180deg,var(--espresso-3),var(--espresso-2))}
+.tip .cat{font-size:13px;color:var(--bronze);font-weight:700}
+.tip blockquote{font-family:var(--serif-ar);font-size:19px;color:var(--gold-hi);line-height:1.7;margin-top:8px}
+.tip::before{content:"”";position:absolute;top:4px;left:18px;font-family:var(--latin);font-size:70px;color:rgba(212,175,122,.18);line-height:1}
+.center{text-align:center;margin-top:34px}
+
+/* referral */
+.ref{display:grid;grid-template-columns:1fr 1.1fr;gap:50px;align-items:center}
+.ref h2{font-family:var(--serif-ar);font-size:clamp(28px,3.6vw,40px);line-height:1.35;margin:8px 0 12px}
+.ref p{color:var(--muted)}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tier{text-align:center;padding:26px 14px;border:1px solid var(--line);background:#fff}
+.tier .t{font-family:var(--latin);font-weight:700;letter-spacing:.14em;font-size:15px}
+.tier .amt{font-family:var(--serif-ar);font-size:32px;margin:6px 0 0;color:var(--ink)}
+.tier .amt small{font-size:15px;font-family:var(--sans-ar);color:var(--muted)}
+.tier .when{font-size:13.5px;color:var(--muted)}
+.tier.s .t{color:#7d858c}.tier.g .t{color:var(--bronze-dk)}.tier.p{background:var(--espresso);border-color:var(--espresso)}
+.tier.p .t{color:var(--gold)}.tier.p .amt{color:var(--gold-hi)}.tier.p .amt small,.tier.p .when{color:rgba(239,231,216,.65)}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:stretch}
+.cards{display:grid;gap:14px}
+.ccard{display:flex;align-items:center;gap:18px;padding:20px 22px;border:1px solid var(--line);background:rgba(255,255,255,.03);transition:border-color .2s,background .2s}
+.ccard:hover{border-color:var(--gold);background:rgba(212,175,122,.06)}
+.ccard svg{width:26px;height:26px;flex:none;fill:var(--gold)}
+.ccard .l{font-size:13px;color:rgba(239,231,216,.6)}
+.ccard .v{font-size:18px;font-weight:700;color:var(--beige)}
+.ccard .v.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
+.map{border:1px solid var(--line);min-height:360px;filter:grayscale(.3) sepia(.25)}
+.map iframe{width:100%;height:100%;min-height:360px;border:0;display:block}
+
+/* footer */
+footer{background:var(--espresso);color:rgba(239,231,216,.65);padding:56px 0 30px;text-align:center;border-top:1px solid var(--line)}
+footer .flogo{display:flex;flex-direction:column;align-items:center;gap:6px}
+footer .flogo .ic{width:84px}
+footer .flogo .wm{width:110px}
+footer .sl{font-family:var(--latin);color:var(--gold);letter-spacing:.14em;margin-top:10px;direction:ltr}
+footer .ar{font-family:var(--serif-ar);color:var(--beige);font-size:20px;margin-top:4px}
+footer .copy{font-size:13px;margin-top:26px}
+
+/* whatsapp float */
+.wa{position:fixed;bottom:22px;left:22px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.3);transition:transform .2s}
+.wa:hover{transform:scale(1.08)}
+.wa svg{width:30px;height:30px;fill:#fff}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+
+/* responsive */
+@media (max-width:1000px){
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .uses-grid{grid-template-columns:repeat(2,1fr)}
+  .proj-grid,.tips{grid-template-columns:1fr 1fr}
+  .about-grid,.why-grid,.ref,.contact-grid{grid-template-columns:1fr}
+  .about-art{aspect-ratio:16/10}
+  .about-art img{width:30%}
+  .steps{grid-template-columns:1fr;gap:28px}
+  .steps::before{display:none}
+}
+@media (max-width:860px){
+  .nav{position:fixed;top:76px;right:0;left:0;flex-direction:column;gap:0;background:rgba(26,19,16,.98);max-height:0;overflow:hidden;transition:max-height .35s}
+  .nav.open{max-height:520px;border-bottom:1px solid var(--line)}
+  .nav a{padding:14px 20px;width:100%;border-top:1px solid rgba(212,175,122,.1)}
+  .nav .btn{margin:14px 20px;width:calc(100% - 40px);justify-content:center}
+  .burger{display:block}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  section{padding:72px 0}
+  .sys-grid,.proj-grid,.tips,.uses-grid,.vm{grid-template-columns:1fr}
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .svc{padding:22px 16px}
+  .tiers{grid-template-columns:1fr}
+  .brand small{display:none}
+  .brand .wm{height:18px}
+  .about-art .tag{font-size:12px;letter-spacing:.1em;bottom:26px}
+  .wa{width:52px;height:52px;bottom:16px;left:16px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="SKY Signature">
+      <img class="ic" src="assets/sky-icon.png" alt="شعار SKY">
+      <span><img class="wm" src="assets/sky-wordmark-gold.png" alt="SKY"><small>Interior Design | Fit-out | Contracting</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#about">من نحن</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#systems">أنظمة التعاقد</a>
+      <a href="#projects">أعمالنا</a>
+      <a href="#why">ليه SKY</a>
+      <a href="#contact">تواصل معنا</a>
+      <a class="btn btn-gold" href="https://wa.me/201507400315?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9" target="_blank" rel="noopener">احجز معاينة</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="القائمة">☰</button>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <img class="hero-logo" src="assets/sky-icon.png" alt="أيقونة SKY — طائر الفينيق">
+    <img class="hero-wm" src="assets/sky-wordmark-gold.png" alt="SKY">
+    <div class="slogan">Interior Design | Fit-out | Contracting</div>
+    <div class="divider"><i></i></div>
+    <h1>بيتك بصمتك<span class="latin">Your Home, Your Signature</span></h1>
+    <p class="lead">تصميم داخلي وتشطيبات كاملة لحد تسليم المفتاح — بإشراف هندسي على كل بند، وتسليم بند بند قدام عينك.</p>
+    <div class="ctas">
+      <a class="btn btn-gold" href="https://wa.me/201507400315?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D9%85%D8%B9%D8%A7%D9%8A%D9%86%D8%A9" target="_blank" rel="noopener">احجز معاينة مجانية</a>
+      <a class="btn btn-ghost" href="#services">شوف خدماتنا</a>
+    </div>
+  </div>
+  <div class="scroll-hint latin">SCROLL</div>
+</section>
+
+<div class="offer">
+  <div class="wrap">
+    <strong>معاينة مجانية داخل مدينة السادات</strong>
+    <span>أيًّا كان نظام التعاقد — باقة، نسبة إشراف، أو تكلفة ثابتة</span>
+    <a href="tel:+201507400315">اتصل الآن</a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="paper">
+  <div class="wrap about-grid">
+    <div class="rv">
+      <span class="eyebrow"><b>01</b> ABOUT US</span>
+      <h2 style="font-family:var(--serif-ar);font-size:clamp(30px,4vw,44px);line-height:1.3;margin:10px 0 18px">من رسمة على ورق.. لوحدة متصممة صح</h2>
+      <p>SKY Signature شركة تصميم داخلي وتشطيبات ومقاولات من مدينة السادات. بنستلم الوحدة على الطوب، ونسلّمها لك جاهزة — من التأسيس والكهرباء والسباكة، لحد الديكور الخشب والأثاث.</p>
+      <p>شغلنا مبني على حاجة واحدة: إن كل تفصيلة تتنفذ صح من أول مرة، لأن التعديل بعد التشطيب بيكلّف ضعف الفلوس.</p>
+      <div class="vm">
+        <div><h4>رؤيتنا</h4><p>نكون الاسم رقم 1 في التشطيبات في مصر.</p></div>
+        <div><h4>رسالتنا</h4><p>تشطيب بجودة واضحة، وسعر واضح، ومتابعة لحد ما بعد التسليم.</p></div>
+      </div>
+    </div>
+    <div class="about-art rv">
+      <img src="assets/sky-icon.png" alt="">
+      <div class="tag">UNVEIL YOUR EXTRAORDINARY.</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="dark">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>02</b> OUR SERVICES</span>
+      <h2>+16 تخصص تحت سقف واحد</h2>
+      <p>فريق متخصص لكل بند — من غير ما تلف على صنايعية ومحلات بنفسك.</p>
+    </div>
+    <div class="svc-grid rv">
+      <div class="svc"><div class="n latin">01</div><h3>كهرباء</h3><p>توزيع دوائر وقواطع معتمدة وتجهيز للسمارت هوم.</p></div>
+      <div class="svc"><div class="n latin">02</div><h3>سباكة</h3><p>مواسير مطابقة للمواصفات واختبار ضغط قبل قفل الحوائط.</p></div>
+      <div class="svc"><div class="n latin">03</div><h3>دهانات</h3><p>معجون وتأسيس صح وطبقات دهان بلون ثابت وعمر أطول.</p></div>
+      <div class="svc"><div class="n latin">04</div><h3>أرضيات</h3><p>بورسلين وباركيه حسب استخدام كل مساحة.</p></div>
+      <div class="svc"><div class="n latin">05</div><h3>سيراميك ورخام</h3><p>فرش مدروس وفواصل رفيعة ومنتظمة وعزل ضد البقع.</p></div>
+      <div class="svc"><div class="n latin">06</div><h3>جبس بورد وأسقف</h3><p>أسقف معلقة وإضاءة مدفونة وفتحات صيانة مدروسة.</p></div>
+      <div class="svc"><div class="n latin">07</div><h3>نجارة وأبواب</h3><p>أبواب ودواليب بمقاسات بالمليمتر وإكسسوارات تعيش.</p></div>
+      <div class="svc"><div class="n latin">08</div><h3>مطابخ</h3><p>مثلث شغل مظبوط وكاونتر يتحمل وتخزين كفاية.</p></div>
+      <div class="svc"><div class="n latin">09</div><h3>حمامات</h3><p>عزل مائي قبل السيراميك وتهوية وخلاطات بجودة عالية.</p></div>
+      <div class="svc"><div class="n latin">10</div><h3>عزل</h3><p>عزل مائي وحراري وصوتي للأسطح والحوائط.</p></div>
+      <div class="svc"><div class="n latin">11</div><h3>إضاءة</h3><p>دمج إضاءة عامة ومركزة وغير مباشرة تدّي عمق للمكان.</p></div>
+      <div class="svc"><div class="n latin">12</div><h3>تكييف وتهوية</h3><p>أماكن وقدرات محسوبة لأداء أفضل وفاتورة أقل.</p></div>
+      <div class="svc"><div class="n latin">13</div><h3>ديكور وألوان</h3><p>طابع واحد متناسق وتوزيع ألوان متوازن.</p></div>
+      <div class="svc"><div class="n latin">14</div><h3>واجهات</h3><p>خامات تتحمل الجو وتحافظ على لونها وقيمة العقار.</p></div>
+      <div class="svc"><div class="n latin">15</div><h3>ديكورات خشب وأثاث</h3><p>قطع خشب وأثاث مصممة على مقاس المكان.</p></div>
+      <div class="svc"><div class="n latin">16</div><h3>تسليم مفتاح</h3><p>وحدة كاملة جاهزة للسكن أو التشغيل من غير أي بند ناقص.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SYSTEMS -->
+<section id="systems" class="paper">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>03</b> HOW WE CONTRACT</span>
+      <h2>3 أنظمة تعاقد.. اختار اللي يناسبك</h2>
+      <p>في كل الأنظمة: إشراف هندسي، كشف حساب واضح، والمعاينة مجانية داخل السادات.</p>
+    </div>
+    <div class="sys-grid">
+      <div class="sys rv">
+        <span class="k latin">A</span>
+        <h3>الباقات</h3>
+        <p>باقة جاهزة ببنود وخامات محددة من الأول — بتعرف هتاخد إيه وبكام قبل ما نبدأ.</p>
+        <div class="pkgs">
+          <span class="pkg gold">SKY GOLD</span>
+          <span class="pkg plat">SKY PLATINUM</span>
+          <span class="pkg dia">SKY DIAMOND</span>
+          <span class="pkg sig">SKY SIGNATURE</span>
+        </div>
+      </div>
+      <div class="sys rv">
+        <span class="k latin">B</span>
+        <h3>نسبة إشراف</h3>
+        <p>انت تشتري الخامات بنفسك وإحنا نشرف على التوريد والتركيب — أو SKY تشتري وتشرف. وخصومات الشركة عند الموردين بتروح لك انت.</p>
+      </div>
+      <div class="sys rv">
+        <span class="k latin">C</span>
+        <h3>تكلفة ثابتة</h3>
+        <p>سعر نهائي متفق عليه للوحدة كلها من البداية — من غير مفاجآت في النص.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="dark">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>04</b> OUR PROCESS</span>
+      <h2>من أول مكالمة لحد المفتاح</h2>
+    </div>
+    <div class="steps rv">
+      <div class="step"><div class="dot"><span>1</span></div><h3>معاينة</h3><p>نزور الوحدة ونسمع منك اللي في بالك.</p></div>
+      <div class="step"><div class="dot"><span>2</span></div><h3>تصميم وتسعير</h3><p>رسمة للشقة وبنود وأسعار واضحة.</p></div>
+      <div class="step"><div class="dot"><span>3</span></div><h3>تعاقد</h3><p>تختار النظام اللي يريّحك ونمضي.</p></div>
+      <div class="step"><div class="dot"><span>4</span></div><h3>تنفيذ بإشراف</h3><p>تقارير أسبوعية بالصور والفيديو وجروب خاص بيك.</p></div>
+      <div class="step"><div class="dot"><span>5</span></div><h3>تسليم ومتابعة</h3><p>تسليم بند بند ومتابعة بعد التسليم.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="paper">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>05</b> WHY SKY</span>
+      <h2>ليه تختار SKY؟</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-col rv">
+        <h3>معاييرنا في التنفيذ</h3>
+        <div class="li"><span class="num latin">1</span><div><h4>دقة التنفيذ</h4><p>الفرق بين لوكس وسوبر لوكس في التفاصيل الصغيرة، مش في الخامة بس.</p></div></div>
+        <div class="li"><span class="num latin">2</span><div><h4>اختبارات فنية قبل القفل</h4><p>اختبار ضغط للمواسير واختبار مياه للعزل قبل أي تقفيل.</p></div></div>
+        <div class="li"><span class="num latin">3</span><div><h4>عزل مائي وحراري</h4><p>عشان مشاكل الرطوبة متظهرش بعد أول شتا.</p></div></div>
+        <div class="li"><span class="num latin">4</span><div><h4>إشراف مباشر</h4><p>مهندس متابع على الموقع، مش تسليم للصنايعي وخلاص.</p></div></div>
+        <div class="li"><span class="num latin">5</span><div><h4>الالتزام بالمواعيد</h4><p>جدول تنفيذ واضح متفق عليه من الأول.</p></div></div>
+      </div>
+      <div class="why-col rv">
+        <h3>مزايا عملاء SKY</h3>
+        <div class="li"><span class="num latin">1</span><div><h4>خصوماتنا ليك</h4><p>أي خصم بتاخده الشركة من الموردين بيتحسب للعميل.</p></div></div>
+        <div class="li"><span class="num latin">2</span><div><h4>إشراف هندسي على كل وحدة</h4><p>بجدول زيارات محدد حتى في الباقات الأساسية.</p></div></div>
+        <div class="li"><span class="num latin">3</span><div><h4>كشف حساب أسبوعي</h4><p>ومعاه ملف مستجدات الموقع بالصور والفيديو.</p></div></div>
+        <div class="li"><span class="num latin">4</span><div><h4>جروب خاص بيك</h4><p>تتابع منه كل حاجة لحظة بلحظة.</p></div></div>
+        <div class="li"><span class="num latin">5</span><div><h4>تسليم بند بند</h4><p>بتستلم كل مرحلة وتتأكد منها قبل اللي بعدها.</p></div></div>
+        <div class="li"><span class="num latin">6</span><div><h4>متابعة بعد التسليم</h4><p>علاقتنا ما بتخلصش يوم المفتاح.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="dark">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>06</b> OUR WORK</span>
+      <h2>شغلنا بيتكلم عننا</h2>
+      <p>مشاريع اتنفذت فعلًا في مدينة السادات.</p>
+    </div>
+    <div class="proj-grid">
+      <article class="proj rv">
+        <div class="ph"><span class="badge plat">SKY PLATINUM</span><img class="wm" src="assets/sky-icon.png" alt=""><span class="soon">صور قبل وبعد قريبًا</span></div>
+        <div class="body"><h3>مشروع 32 — شقة الدور الثالث</h3><p>تشطيب كامل بباقة بلاتينيوم، متابَع بالمراحل من التأسيس لحد التسليم.</p></div>
+      </article>
+      <article class="proj rv">
+        <div class="ph"><span class="badge gold">SKY GOLD</span><img class="wm" src="assets/sky-icon.png" alt=""><span class="soon">صور قبل وبعد قريبًا</span></div>
+        <div class="body"><h3>مشروع 32 — شقة الدور الرابع + السلم</h3><p>تشطيب الشقة والسلم المشترك بباقة جولد.</p></div>
+      </article>
+      <article class="proj rv">
+        <div class="ph"><span class="badge del">DELIVERED</span><img class="wm" src="assets/sky-icon.png" alt=""><span class="soon">صور المشروع قريبًا</span></div>
+        <div class="body"><h3>بيت متسلّم</h3><p>مشروع اتسلّم لصاحبه جاهز للسكن.</p></div>
+      </article>
+    </div>
+    <div class="center"><a class="btn btn-ghost" href="https://www.instagram.com/sky_lsignature/" target="_blank" rel="noopener">شوف باقي الشغل على انستجرام</a></div>
+  </div>
+</section>
+
+<!-- 8 USES -->
+<section class="paper">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>07</b> ONE APARTMENT, 8 USES</span>
+      <h2>شقة واحدة.. 8 استخدامات</h2>
+      <p>نفس الشقة ونفس الحيطان الخارجية — بس كل استخدام محتاج تقسيم وتشطيب مختلف. وإحنا بنصممه صح.</p>
+    </div>
+    <div class="uses-grid">
+      <div class="use rv"><span class="n latin">01</span><h3>سكني</h3><p>ريسبشن مفتوح + 3 غرف نوم.</p></div>
+      <div class="use rv"><span class="n latin">02</span><h3>عيادة</h3><p>3 غرف كشف وحمام لذوي الهمم وركن أطفال.</p></div>
+      <div class="use rv"><span class="n latin">03</span><h3>عيادة أسنان</h3><p>وحدتين وغرفة أشعة بحيطة رصاص وتعقيم.</p></div>
+      <div class="use rv"><span class="n latin">04</span><h3>مكتب محاماة</h3><p>قاعة اجتماعات ومكتب محامي ومساعدين وبوفيه.</p></div>
+      <div class="use rv"><span class="n latin">05</span><h3>مكتب هندسي</h3><p>10 محطات عمل واجتماعات ومكتب مدير.</p></div>
+      <div class="use rv"><span class="n latin">06</span><h3>إيجار فندقي</h3><p>يستوعب 6 ضيوف بمكاتب شغل وغسالة.</p></div>
+      <div class="use rv"><span class="n latin">07</span><h3>سنتر دروس</h3><p>3 قاعات تستوعب 56 طالب وحمامين.</p></div>
+      <div class="use rv"><span class="n latin">08</span><h3>صالون تجميل</h3><p>شعر وأظافر وبشرة وجناح عروسة.</p></div>
+    </div>
+    <div class="uses-note rv">عندك وحدة ومحتار تعمل فيها إيه؟ ابعتلنا رسمة الشقة.</div>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="dark">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>08</b> DESIGN TIPS</span>
+      <h2>نصايح قبل ما تشطّب</h2>
+      <p>كل يوم نصيحة جديدة على صفحاتنا.</p>
+    </div>
+    <div class="tips">
+      <div class="tip rv"><span class="cat">كهرباء</span><blockquote>احسب أماكن الفيش والإضاءة قبل السباكة والدهانات — التعديل بعد التشطيب بيكلفك ضعف الفلوس.</blockquote></div>
+      <div class="tip rv"><span class="cat">سباكة</span><blockquote>اعمل اختبار ضغط للمواسير قبل قفل الحوائط — أرخص بكتير من كسر التشطيب بعد سنة.</blockquote></div>
+      <div class="tip rv"><span class="cat">حمامات</span><blockquote>العزل المائي في الحمام قبل السيراميك خطوة ما ينفعش تتجاهلها أبدًا.</blockquote></div>
+      <div class="tip rv"><span class="cat">دهانات</span><blockquote>اعمل عينة لون على الحيط وشوفها في ضوء النهار والليل قبل ما تقرر نهائي.</blockquote></div>
+      <div class="tip rv"><span class="cat">ديكور وألوان</span><blockquote>قاعدة الـ 60-30-10 في توزيع الألوان بتخلي أي مساحة متوازنة بصريًا من غير مجهود.</blockquote></div>
+      <div class="tip rv"><span class="cat">جودة التشطيب</span><blockquote>افحص زوايا الحوائط والأرضيات بعد التسليم — الزوايا المظبوطة 90 درجة علامة على دقة التنفيذ.</blockquote></div>
+    </div>
+    <div class="center"><a class="btn btn-gold" href="https://www.instagram.com/sky_lsignature/" target="_blank" rel="noopener">تابعنا على انستجرام</a></div>
+  </div>
+</section>
+
+<!-- REFERRAL -->
+<section id="referral" class="paper">
+  <div class="wrap ref">
+    <div class="rv">
+      <span class="eyebrow"><b>09</b> SKY REFERRAL</span>
+      <h2>برنامج ترشيح SKY</h2>
+      <p>تعرف حد عنده شقة محتاجة تشطيب؟ رشّحه لنا، ولو اتعاقد تاخد عمولة ثابتة على كل عقد — مكاتب عقارات أو أفراد، الكل مرحّب بيه.</p>
+      <div style="margin-top:22px"><a class="btn btn-gold" href="https://wa.me/201507400315?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B4%D8%AA%D8%B1%D9%83%20%D9%81%D9%8A%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D8%AA%D8%B1%D8%B4%D9%8A%D8%AD%20SKY" target="_blank" rel="noopener">عايز أرشّح</a></div>
+    </div>
+    <div class="tiers rv">
+      <div class="tier s"><div class="t latin">SILVER</div><div class="amt">5,000 <small>ج.م</small></div><div class="when">أول عقدين في السنة</div></div>
+      <div class="tier g"><div class="t latin">GOLD</div><div class="amt">7,000 <small>ج.م</small></div><div class="when">من العقد التالت</div></div>
+      <div class="tier p"><div class="t latin">PLATINUM</div><div class="amt">10,000 <small>ج.م</small></div><div class="when">من العقد السادس</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="dark">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow"><b>10</b> CONTACT US</span>
+      <h2>تواصل معنا</h2>
+      <p>كلمنا أو ابعت رسالة واتساب، وحدد ميعاد المعاينة.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="cards rv">
+        <a class="ccard" href="tel:+201507400315">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          <div><div class="l">اتصال</div><div class="v ltr">0150 740 0315</div></div>
+        </a>
+        <a class="ccard" href="https://wa.me/201507400315" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.6-.1 1.2z"/></svg>
+          <div><div class="l">واتساب</div><div class="v ltr">0150 740 0315</div></div>
+        </a>
+        <a class="ccard" href="https://www.instagram.com/sky_lsignature/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 3.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1C5.3 20 4 18.7 3.9 16c-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5.3 5.3 4 8 3.9c1-.1 1.3-.1 4-.1zM12 2C9.3 2 8.9 2 7.9 2.1 4.2 2.2 2.2 4.2 2.1 7.9 2 8.9 2 9.3 2 12s0 3.1.1 4.1c.1 3.7 2.1 5.7 5.8 5.8 1 .1 1.4.1 4.1.1s3.1 0 4.1-.1c3.7-.1 5.7-2.1 5.8-5.8.1-1 .1-1.4.1-4.1s0-3.1-.1-4.1c-.1-3.7-2.1-5.7-5.8-5.8C15.1 2 14.7 2 12 2z"/></svg>
+          <div><div class="l">انستجرام</div><div class="v ltr">@sky_lsignature</div></div>
+        </a>
+        <a class="ccard" href="https://www.facebook.com/AhmedlMlFadl" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"/></svg>
+          <div><div class="l">فيسبوك</div><div class="v">SKY Signature</div></div>
+        </a>
+        <a class="ccard" href="https://maps.google.com/?q=Pyramids+Mall+Sadat+City" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+          <div><div class="l">العنوان</div><div class="v">بيراميدز مول، الدور التالت — مدينة السادات</div></div>
+        </a>
+      </div>
+      <div class="map rv">
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="موقع SKY Signature على الخريطة" src="https://www.google.com/maps?q=Pyramids+Mall+Sadat+City+Egypt&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="flogo">
+      <img class="ic" src="assets/sky-icon.png" alt="شعار SKY">
+      <img class="wm" src="assets/sky-wordmark-gold.png" alt="SKY">
+    </div>
+    <div class="sl">Interior Design | Fit-out | Contracting</div>
+    <div class="ar">بيتك بصمتك</div>
+    <div class="copy">© <span id="yr">2026</span> SKY Signature — مدينة السادات، مصر</div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/201507400315" target="_blank" rel="noopener" aria-label="واتساب">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.6-.1 1.2z"/></svg>
+</a>
+
+<script>
+const hdr=document.getElementById('hdr'),nav=document.getElementById('nav');
+const onScroll=()=>hdr.classList.toggle('solid',scrollY>40);onScroll();addEventListener('scroll',onScroll,{passive:true});
+document.getElementById('burger').onclick=()=>nav.classList.toggle('open');
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+document.getElementById('yr').textContent=new Date().getFullYear();
+if('IntersectionObserver' in window){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+}else document.querySelectorAll('.rv').forEach(el=>el.classList.add('in'));
+</script>
+</body>
+</html>
